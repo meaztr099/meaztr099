@@ -1,0 +1,31 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "8b993abe-4b7c-4c00-8792-10e510ccc646",
+  "tenantId": "229365ac-76e3-4cbb-b87e-729538eb5fb4",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "Security-Baseline",
+  "policyDefinitionId": "/subscriptions/5149fa40-be68-40be-bc36-d7f1378d800e/providers/Microsoft.Authorization/policySetDefinitions/1daca0371f8942948111f9cd",
+  "scope": "/subscriptions/5149fa40-be68-40be-bc36-d7f1378d800e",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Mark Eaton",
+   "parameterScopes": {},
+   "createdBy": "4703ccd7-936e-4ede-b198-311159c69331",
+   "createdOn": "2022-04-01T07:35:42.1274021Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/5149fa40-be68-40be-bc36-d7f1378d800e/providers/Microsoft.Authorization/policyAssignments/f0b738f87865473aa1e1b765",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "f0b738f87865473aa1e1b765",
+ "location": "uksouth"
+}

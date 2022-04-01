@@ -1,0 +1,48 @@
+{
+ "properties": {
+  "displayName": "Security-Baseline",
+  "policyType": "Custom",
+  "description": "",
+  "metadata": {
+   "category": "Regulatory Compliance",
+   "version": "1.0..0",
+   "createdBy": "4703ccd7-936e-4ede-b198-311159c69331",
+   "createdOn": "2022-03-15T07:28:46.6083357Z",
+   "updatedBy": "4703ccd7-936e-4ede-b198-311159c69331",
+   "updatedOn": "2022-04-01T07:32:50.4452879Z",
+   "ASC": "true"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "LBG-1.1.1-Enforce-Soft-Delete",
+    "policyDefinitionId": "/subscriptions/5149fa40-be68-40be-bc36-d7f1378d800e/providers/Microsoft.Authorization/policyDefinitions/p-kvt-all-Enforce-Soft-Delete",
+    "parameters": {},
+    "groupNames": [
+     "LBG-1.1"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "LBG-9.1.1-Disable-Local-Authentication",
+    "policyDefinitionId": "/subscriptions/5149fa40-be68-40be-bc36-d7f1378d800e/providers/Microsoft.Authorization/policyDefinitions/p-gen-all-Automation-Disable-local-Authentication",
+    "parameters": {},
+    "groupNames": [
+     "LBG-9.1"
+    ]
+   }
+  ],
+  "policyDefinitionGroups": [
+   {
+    "name": "LBG-9.1",
+    "category": "Automation Accounts"
+   },
+   {
+    "name": "LBG-1.1",
+    "category": "Key Vault"
+   }
+  ]
+ },
+ "id": "/subscriptions/5149fa40-be68-40be-bc36-d7f1378d800e/providers/Microsoft.Authorization/policySetDefinitions/1daca0371f8942948111f9cd",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "1daca0371f8942948111f9cd"
+}
